@@ -11,5 +11,5 @@ int main()
 	for(i=2;i*i<=n;i++)
 		if(n%i==0)
 			cout<<"Nu";
-	return 0;
+	return 1;
 }
