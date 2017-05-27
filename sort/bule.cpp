@@ -19,7 +19,7 @@ int main()
 				v[i+1]=aux;//interschimbam
 				gasit=1;//ok-ul il confirmam
 			}
-	}while(gasit);//pana ok-ul nu mai este 0
+	}while(gasit==1);//pana ok-ul nu mai este 0
 	for(i=0;i<n;i++)
 		cout<<v[i]<<" ";//afisare
 	return 0;
