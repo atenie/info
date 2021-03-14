@@ -12,10 +12,12 @@ int main()
 		n/=10;
 	}
 	for(n=0;n<10;n++)
+	{
 		while(v[n]!=0)
 		{
 			cout<<n;
 			v[n]--;
 		}
+	}
 	return 0;
 }
