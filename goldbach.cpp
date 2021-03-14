@@ -16,10 +16,16 @@ int main()
 		{
 			okp=1; // Initializam un al doilea ok pentru scadere.
 			for(d=2;d<=x/2;d++)
+			{
 				if(x%d==0) // Daca numarul are divizor...
+				{
 					okp=0; // ...ramanem in bucla.
+				}
+			}
 			if(okp==1) // Daca poate fi impartit cu acest numar...
+			{
 				ok=0; // ...se iese din while.
+			}
 			else x--; // Altfel se scade pana la cel mai mare divizor apropriat.
 		}
 		n=n-x; // se scade divizorul
