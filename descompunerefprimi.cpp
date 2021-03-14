@@ -15,9 +15,11 @@ int main()
 			n/=d;
 			p++;
 		}
-	if(p)
-		cout<<d<<" la puterea "<<p<<endl;
-	d++;
+		if(p)
+		{
+			cout<<d<<" la puterea "<<p<<endl;
+		}
+		d++;
 	}
 	return 0;
 }
