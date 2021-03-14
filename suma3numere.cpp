@@ -18,7 +18,9 @@ int main()
 		}
 	}
 	for(i=0;i<3;i++)
+	{
 		cout<<k[i]<<" ";
+	}
 	cout<<endl<<smax;
 	return 0;
 }
